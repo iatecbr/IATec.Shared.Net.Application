@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>IATec.Shared.Application</PackageId>
@@ -10,7 +10,7 @@
 		<Description>Project developed to help IATec teams to develop their projects faster.</Description>
 		<Copyright>@IATec Solutions</Copyright>
 		<RootNamespace>IATec.Shared.Application</RootNamespace>
-        <Version>1.0.1</Version>
+        <Version>1.1.0</Version>
         <PackageIconUrl>https://assets-services-dev.sdasystems.org/images/icons/standard.library.icon.png</PackageIconUrl>
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/iatecbr/IATec.Shared.Net.Application</RepositoryUrl>
@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="AutoMapper" Version="13.0.1" />
-      <PackageReference Include="FluentResults" Version="3.16.0" />
+      <PackageReference Include="AutoMapper" Version="16.0.0" />
+      <PackageReference Include="FluentResults" Version="4.0.0" />
     </ItemGroup>
 </Project>

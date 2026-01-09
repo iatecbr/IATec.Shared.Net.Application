@@ -46,8 +46,7 @@ public static class PagePaginate
         }
 
         var list = query
-            .Skip(page * limit)
-            .Take(limit)
+            .Take((page * limit)..limit)
             .ToList();
 
         var task = new Task<Result<Page<T>>>(() => Result.Ok(
